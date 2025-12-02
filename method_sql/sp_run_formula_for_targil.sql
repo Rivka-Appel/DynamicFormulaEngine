@@ -76,7 +76,6 @@ GO
 
 -- exec
 EXEC dbo.sp_run_formula_for_targil @targil_id = 1;
-SELECT TOP 5 * FROM t_results WHERE targil_id = 1;
-SELECT * FROM t_log WHERE targil_id = 1;
 
+select count(*) from t_results
 
