@@ -21,41 +21,39 @@ namespace method_csharp.Infrastructure.Data
 
         public void SaveResults(IEnumerable<ResultRecord> results)
         {
+            var table = new DataTable();
+            table.Columns.Add("data_id", typeof(int));
+            table.Columns.Add("targil_id", typeof(int));
+            table.Columns.Add("method", typeof(string));
+            table.Columns.Add("result", typeof(double));
+
+            foreach (var r in results)
+            {
+                var row = table.NewRow();
+                row["data_id"] = r.DataId;
+                row["targil_id"] = r.TargilId;
+                row["method"] = r.Method;
+                row["result"] = r.Result.HasValue
+                    ? r.Result.Value
+                    : DBNull.Value;
+                table.Rows.Add(row);
+            }
+
             using var connection = new SqlConnection(_connectionString);
             connection.Open();
 
-            using var transaction = connection.BeginTransaction();
-
-            const string sql = @"
-INSERT INTO t_results (data_id, targil_id, method, result)
-VALUES (@data_id, @targil_id, @method, @result);";
-
-            using var command = new SqlCommand(sql, connection, transaction);
-
-            var pDataId = command.Parameters.Add("@data_id", SqlDbType.Int);
-            var pTargilId = command.Parameters.Add("@targil_id", SqlDbType.Int);
-            var pMethod = command.Parameters.Add("@method", SqlDbType.VarChar, 50);
-            var pResult = command.Parameters.Add("@result", SqlDbType.Float);
-
-            try
+            using var bulkCopy = new SqlBulkCopy(connection)
             {
-                foreach (var r in results)
-                {
-                    pDataId.Value = r.DataId;
-                    pTargilId.Value = r.TargilId;
-                    pMethod.Value = r.Method;
-                    pResult.Value = (object?)r.Result ?? DBNull.Value;
+                DestinationTableName = "t_results"
+            };
 
-                    command.ExecuteNonQuery();
-                }
+            bulkCopy.ColumnMappings.Add("data_id", "data_id");
+            bulkCopy.ColumnMappings.Add("targil_id", "targil_id");
+            bulkCopy.ColumnMappings.Add("method", "method");
+            bulkCopy.ColumnMappings.Add("result", "result");
 
-                transaction.Commit();
-            }
-            catch
-            {
-                transaction.Rollback();
-                throw;
-            }
+            bulkCopy.WriteToServer(table);
         }
+
     }
 }

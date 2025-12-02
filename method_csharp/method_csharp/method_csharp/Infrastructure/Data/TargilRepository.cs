@@ -42,9 +42,5 @@ FROM t_targil";
             }
         }
 
-        IEnumerable<TargilRecord> ITargilRepository.GetAllTargilim()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

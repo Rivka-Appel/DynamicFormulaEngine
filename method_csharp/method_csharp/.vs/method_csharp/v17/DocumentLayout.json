@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\data\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\data\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\data\\resultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\data\\resultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\models\\resultrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\models\\resultrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\services\\formularunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\services\\formularunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\services\\ncalcformulaevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\services\\ncalcformulaevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\services\\computeformulaevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\services\\computeformulaevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\method_csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\data\\targilrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\data\\targilrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\data\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\data\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\data\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\interfaces\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\interfaces\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\infrastructure\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\infrastructure\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\interfaces\\iformulaevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\models\\logrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\models\\resultrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\models\\resultrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\models\\targilrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\models\\targilrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\domain\\models\\datarecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\domain\\models\\datarecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|c:\\users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\desktop\\home-task\\dynamicformulaengine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B80B6A6F-1672-4F26-876C-38C3101C72F2}|method_csharp\\method_csharp.csproj|solutionrelative:method_csharp\\method_csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,63 +86,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\LogRepository.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\LogRepository.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\LogRepository.cs",
-              "RelativeToolTip": "method_csharp\\Infrastructure\\Data\\LogRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwA8AAAAPAAAA",
+              "DocumentIndex": 8,
+              "Title": "DbConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\DbConfig.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\DbConfig.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\DbConfig.cs",
+              "RelativeToolTip": "method_csharp\\Infrastructure\\DbConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:27:42.414Z",
+              "WhenOpened": "2025-12-02T12:21:02.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
-              "RelativeToolTip": "method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAYwBQAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Program.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Program.cs",
+              "RelativeToolTip": "method_csharp\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:26:58.434Z",
+              "WhenOpened": "2025-12-02T11:32:37.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TargilRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\TargilRepository.cs",
               "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\TargilRepository.cs",
               "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\TargilRepository.cs",
               "RelativeToolTip": "method_csharp\\Infrastructure\\Data\\TargilRepository.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCIAAAAtAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvywAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:25:15.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDataRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
-              "RelativeToolTip": "method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "DocumentIndex": 0,
+              "Title": "ResultRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
+              "RelativeToolTip": "method_csharp\\Infrastructure\\Data\\ResultRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:23:54.822Z",
+              "WhenOpened": "2025-12-02T12:26:58.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComputeFormulaEvaluator.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\ComputeFormulaEvaluator.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Services\\ComputeFormulaEvaluator.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\ComputeFormulaEvaluator.cs",
+              "RelativeToolTip": "method_csharp\\Services\\ComputeFormulaEvaluator.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAuwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:42:39.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormulaRunner.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\FormulaRunner.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Services\\FormulaRunner.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\FormulaRunner.cs",
+              "RelativeToolTip": "method_csharp\\Services\\FormulaRunner.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:10:28.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultRecord.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\ResultRecord.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Domain\\Models\\ResultRecord.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\ResultRecord.cs",
+              "RelativeToolTip": "method_csharp\\Domain\\Models\\ResultRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:12:52.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "NCalcFormulaEvaluator.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\NCalcFormulaEvaluator.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Services\\NCalcFormulaEvaluator.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Services\\NCalcFormulaEvaluator.cs",
+              "RelativeToolTip": "method_csharp\\Services\\NCalcFormulaEvaluator.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAGIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:39:48.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DataRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\DataRepository.cs",
               "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\DataRepository.cs",
@@ -143,20 +207,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DbConfig.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\DbConfig.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\DbConfig.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\DbConfig.cs",
-              "RelativeToolTip": "method_csharp\\Infrastructure\\DbConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:21:02.576Z",
+              "DocumentIndex": 6,
+              "Title": "method_csharp.csproj",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj",
+              "RelativeDocumentMoniker": "method_csharp\\method_csharp.csproj",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj",
+              "RelativeToolTip": "method_csharp\\method_csharp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T11:31:08.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "IDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
+              "RelativeToolTip": "method_csharp\\Domain\\Interfaces\\IDataRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:23:54.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\LogRepository.cs",
+              "RelativeDocumentMoniker": "method_csharp\\Infrastructure\\Data\\LogRepository.cs",
+              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Infrastructure\\Data\\LogRepository.cs",
+              "RelativeToolTip": "method_csharp\\Infrastructure\\Data\\LogRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:27:42.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IFormulaEvaluator.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IFormulaEvaluator.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\IFormulaEvaluator.cs",
@@ -169,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ILogRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\ILogRepository.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\ILogRepository.cs",
@@ -182,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IResultRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\IResultRepository.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\IResultRepository.cs",
@@ -195,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ITargilRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Interfaces\\ITargilRepository.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Interfaces\\ITargilRepository.cs",
@@ -208,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "LogRecord.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\LogRecord.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Models\\LogRecord.cs",
@@ -221,20 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResultRecord.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\ResultRecord.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Domain\\Models\\ResultRecord.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\ResultRecord.cs",
-              "RelativeToolTip": "method_csharp\\Domain\\Models\\ResultRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T12:12:52.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "TargilRecord.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\TargilRecord.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Models\\TargilRecord.cs",
@@ -247,20 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Program.cs",
-              "RelativeDocumentMoniker": "method_csharp\\Program.cs",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Program.cs",
-              "RelativeToolTip": "method_csharp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:32:37.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "DataRecord.cs",
               "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\Domain\\Models\\DataRecord.cs",
               "RelativeDocumentMoniker": "method_csharp\\Domain\\Models\\DataRecord.cs",
@@ -269,19 +333,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T12:11:20.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "method_csharp",
-              "DocumentMoniker": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj",
-              "RelativeDocumentMoniker": "method_csharp\\method_csharp.csproj",
-              "ToolTip": "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\Desktop\\home-task\\DynamicFormulaEngine\\method_csharp\\method_csharp\\method_csharp\\method_csharp.csproj",
-              "RelativeToolTip": "method_csharp\\method_csharp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-02T11:31:08.497Z",
               "EditorCaption": ""
             }
           ]
