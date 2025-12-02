@@ -1,0 +1,64 @@
+####################
+# Common
+####################
+# לוגים וקבצים זמניים
+*.log
+*.tmp
+*.temp
+
+# מערכת הפעלה
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# הגדרות אישיות של IDE
+.vscode/
+.idea/
+
+####################
+# .NET / C#
+####################
+# תיקיות קומפילציה
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# פאבליש מקומי
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+####################
+# Python
+####################
+# סביבה וירטואלית
+venv/
+.env/
+.venv/
+
+# קבצי קומפילציה של פייתון
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+####################
+# SQL / Database
+####################
+# קבצי DB מקומיים – לא להעלות
+*.mdf
+*.ldf
+*.bak
+*.trn
+
