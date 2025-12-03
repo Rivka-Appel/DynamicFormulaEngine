@@ -3,12 +3,10 @@ using method_csharp.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace method_csharp.Services
 {
-
+    // Runs all formulas on all data rows
     public class FormulaRunner
     {
         private readonly IDataRepository _dataRepository;
@@ -31,8 +29,10 @@ namespace method_csharp.Services
             _evaluator = evaluator;
         }
 
+        // Main entry to execute all targilim
         public void RunAll(string methodName)
         {
+            // Clear previous results for this method
             _resultRepository.DeleteResultsForMethod(methodName);
 
             var data = _dataRepository.GetAllData().ToList();
@@ -49,6 +49,7 @@ namespace method_csharp.Services
 
                 foreach (var row in data)
                 {
+                    // Choose formula by condition (tnai / targil_false)
                     string expressionToUse;
 
                     if (!string.IsNullOrWhiteSpace(targil.Tnai))
@@ -57,7 +58,7 @@ namespace method_csharp.Services
 
                         if (condition)
                         {
-                            expressionToUse = targil.Targil;  
+                            expressionToUse = targil.Targil;
                         }
                         else
                         {
@@ -87,11 +88,10 @@ namespace method_csharp.Services
 
                 Console.WriteLine($"Targil {targil.TargilId} finished in {seconds:F2} seconds.");
 
+                // Save all results + execution time
                 _resultRepository.SaveResults(results);
                 _logRepository.SaveRunTime(targil.TargilId, methodName, seconds);
             }
-
         }
     }
-
 }

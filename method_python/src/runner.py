@@ -1,6 +1,11 @@
+"""
+Entry point for the PYTHON method:
+load formulas from t_targil and process each one on all rows in t_data.
+"""
 
 from .db import get_connection
 from .formulas import get_formulas, process_formula
+
 
 def main():
     conn = get_connection()
@@ -15,6 +20,7 @@ def main():
 
     cursor.close()
     conn.close()
+
 
 if __name__ == "__main__":
     main()

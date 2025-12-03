@@ -1,22 +1,23 @@
+"""
+Dynamic formula evaluation in Python.
+
+Loads formulas from t_targil, evaluates them on all rows in t_data,
+and writes results to t_results and t_log.
+"""
+
 import time
 import math
 
 METHOD_NAME = "PYTHON"
 
+
 def IF(cond, x, y):
-    """
-    פונקציית תנאי לשימוש בתוך נוסחאות:
-    IF(a > 5, b * 2, b / 2)
-    """
+    """Simple conditional helper: IF(cond, x, y)."""
     return x if cond else y
 
 
 def get_formulas(cursor):
-    """
-    מחזירה את כל הנוסחאות מטבלת t_targil.
-    העמודות לפי ה-DDL שלך:
-    targil_id, targil, tnai, targil_false
-    """
+    """Return all formulas from t_targil."""
     cursor.execute(
         """
         SELECT targil_id,
@@ -30,11 +31,7 @@ def get_formulas(cursor):
 
 
 def process_formula(cursor, targil_row):
-    """
-    מריץ נוסחה אחת (targil_row) על כל השורות ב-t_data,
-    שומר תוצאות ב-t_results, ומוסיף שורה אחת ל-t_log.
-    """
-
+    """Run a single formula on all rows in t_data and log results + duration."""
     targil_id = targil_row.targil_id
     targil = targil_row.targil
     tnai = targil_row.tnai
@@ -42,7 +39,7 @@ def process_formula(cursor, targil_row):
 
     print(f"Running {METHOD_NAME} for targil_id={targil_id}, formula={targil}")
 
-    # מוחקים תוצאות קודמות לשיטה הזו (לנוסחה הזו)
+    # Clear previous results for this formula and method
     cursor.execute(
         """
         DELETE FROM t_results
@@ -51,25 +48,25 @@ def process_formula(cursor, targil_row):
         targil_id, METHOD_NAME
     )
 
-    # context בסיסי, נשתמש בו מחדש לכל שורה
+    # Base context reused for each row
     ctx = {
         "a": 0.0,
         "b": 0.0,
         "c": 0.0,
         "d": 0.0,
-        # פונקציות מתמטיות
-        "sqrt": math.sqrt,  # אם תכתבי sqrt(...) בנוסחה
-        "SQRT": math.sqrt,  # אם תשתמשי באותיות גדולות
+        # math functions
+        "sqrt": math.sqrt,
+        "SQRT": math.sqrt,
         "log": math.log,
         "LOG": math.log,
         "abs": abs,
         "ABS": abs,
-        "POWER": math.pow,  # בשביל POWER(a, 2)
-        # תנאי
+        "POWER": math.pow,
+        # conditional
         "IF": IF,
     }
 
-    # מקמפלים את הנוסחאות פעם אחת
+    # Compile formulas once
     compiled_targil = compile(targil, "<targil>", "eval")
 
     compiled_tnai = None
@@ -82,21 +79,20 @@ def process_formula(cursor, targil_row):
 
     start_time = time.time()
 
-    # שולפים את כל הנתונים מתוך t_data
+    # Load all data rows
     cursor.execute("SELECT data_id, a, b, c, d FROM t_data")
     rows = cursor.fetchall()
 
-    # במקום מיליון INSERT-ים – נצבור רשימה ונשתמש ב-executemany
+    # Collect results and insert in batch
     results_to_insert = []
 
     for data_id, a, b, c, d in rows:
-        # מעדכנים את הערכים ב-context
         ctx["a"] = a
         ctx["b"] = b
         ctx["c"] = c
         ctx["d"] = d
 
-        # בוחרים איזו נוסחה להריץ
+        # Choose which formula to run
         if compiled_tnai is None:
             formula_code = compiled_targil
         else:
@@ -107,26 +103,20 @@ def process_formula(cursor, targil_row):
                 if compiled_false_targil is not None:
                     formula_code = compiled_false_targil
                 else:
-                    # 0 כקוד קבוע
                     formula_code = compile("0", "<default_false>", "eval")
 
-        # מחשבים את התוצאה הסופית, עם טיפול בשגיאות מתמטיות
+        # Evaluate with basic error handling
         try:
             result = eval(formula_code, {}, ctx)
         except ZeroDivisionError:
-            # למשל: חלוקה ב-0 → נשמור NULL ב-DB
             result = None
         except ValueError:
-            # למשל: sqrt שלילי, log לערך לא חוקי וכו'
             result = None
 
-        # מוסיפים לרשימת התוצאות לצבירה
         results_to_insert.append(
             (data_id, targil_id, METHOD_NAME, result)
         )
 
-
-    # עכשיו מבצעים INSERT מרוכז
     cursor.fast_executemany = True
     cursor.executemany(
         """
@@ -139,7 +129,6 @@ def process_formula(cursor, targil_row):
     end_time = time.time()
     duration_seconds = end_time - start_time
 
-    # מוסיפים שורה ללוג בטבלת t_log (שדה run_time)
     cursor.execute(
         """
         INSERT INTO t_log (targil_id, method, run_time)

@@ -7,9 +7,10 @@ using NCalc;
 
 namespace method_csharp.Services
 {
+    // Evaluates formulas using NCalc (with cache)
     public class NCalcFormulaEvaluator : IFormulaEvaluator
     {
-        // Cache של אקספרשנים לפי מחרוזת מנורמלת
+        // Cache compiled expressions
         private readonly Dictionary<string, Expression> _expressionCache = new();
 
         public double EvaluateNumeric(string expression, DataRecord data)
@@ -42,6 +43,7 @@ namespace method_csharp.Services
             return Convert.ToBoolean(result);
         }
 
+        // Get from cache or create + register functions
         private Expression GetOrCreateExpression(string normalizedExpression)
         {
             if (_expressionCache.TryGetValue(normalizedExpression, out var existing))
@@ -51,7 +53,7 @@ namespace method_csharp.Services
 
             var expr = new Expression(normalizedExpression);
 
-            // פונקציות מותאמות: POWER, SQRT, ABS, LOG
+            // Custom math functions available in formulas
             expr.EvaluateFunction += (name, args) =>
             {
                 switch (name.ToUpperInvariant())
@@ -88,6 +90,7 @@ namespace method_csharp.Services
             return expr;
         }
 
+        // Bind a,b,c,d to the expression
         private static void SetParameters(Expression expr, DataRecord data)
         {
             expr.Parameters["a"] = data.A;
@@ -96,6 +99,7 @@ namespace method_csharp.Services
             expr.Parameters["d"] = data.D;
         }
 
+        // Normalize operators to NCalc-friendly syntax
         private static string NormalizeExpression(string expr)
         {
             if (string.IsNullOrWhiteSpace(expr))
@@ -103,9 +107,10 @@ namespace method_csharp.Services
 
             string s = expr;
 
+            // SQL-style not equal → !=
             s = s.Replace("<>", "!=");
 
-            // c = d -> c == d  (רק בין מזהים, לא ב-log(c = 1) וכו')
+            // Single = between words → ==
             s = Regex.Replace(s, @"(?<=\w)\s*=\s*(?=\w)", " == ");
 
             return s;
