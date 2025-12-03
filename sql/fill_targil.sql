@@ -19,3 +19,7 @@ INSERT INTO t_targil (targil, tnai, targil_false) VALUES
 ('b * 2', 'a > 5', 'b / 2'),
 ('a + 1', 'b < 10', 'd - 1'),
 ('POWER(a,2)', 'c = d', '0');
+
+UPDATE t_targil
+SET tnai = 'c == d'
+WHERE targil = 'POWER(a,2)' AND tnai = 'c = d';

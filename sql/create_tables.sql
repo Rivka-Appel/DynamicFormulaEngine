@@ -34,3 +34,12 @@ CREATE TABLE t_log (
     run_time FLOAT,
     FOREIGN KEY (targil_id) REFERENCES t_targil(targil_id)
 );
+
+-- Ensures that a condition is either fully defined or not defined at all.
+ALTER TABLE t_targil
+ADD CONSTRAINT CK_t_targil_tnai_false_pair
+CHECK (
+    (tnai IS NULL AND targil_false IS NULL)
+    OR
+    (tnai IS NOT NULL AND targil_false IS NOT NULL)
+);

@@ -62,8 +62,9 @@ BEGIN
     ';
 
     EXEC sp_executesql @sql;
-
-    SET @endTime = SYSDATETIME(); -- End timing
+	
+	-- End timing
+    SET @endTime = SYSDATETIME(); 
 
     -- Compute duration in seconds
     SET @seconds = DATEDIFF(MILLISECOND, @startTime, @endTime) / 1000.0;
@@ -74,8 +75,5 @@ BEGIN
 END;
 GO
 
--- exec
-EXEC dbo.sp_run_formula_for_targil @targil_id = 1;
 
-select count(*) from t_results
 
