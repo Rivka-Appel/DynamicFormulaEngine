@@ -8,6 +8,7 @@ namespace method_csharp.Infrastructure
 {
     public static class DbConfig
     {
+        // example
         private const string ConnectionStringInternal =
             "Server=DESKTOP-MG2PNTU\\SQLEXPRESS;Database=DynamicFormulaDB;Trusted_Connection=True;TrustServerCertificate=True";
 

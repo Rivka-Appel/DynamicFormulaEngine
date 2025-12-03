@@ -33,6 +33,8 @@ namespace method_csharp.Services
 
         public void RunAll(string methodName)
         {
+            _resultRepository.DeleteResultsForMethod(methodName);
+
             var data = _dataRepository.GetAllData().ToList();
             var targilim = _targilRepository.GetAllTargilim().ToList();
 

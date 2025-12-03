@@ -51,17 +51,6 @@ def process_formula(cursor, targil_row):
         targil_id, METHOD_NAME
     )
 
-    # מוחקים רשומות לוג קודמות לשיטה הזו (לא חובה, אבל מסודר)
-    cursor.execute(
-        """
-        DELETE FROM t_log
-        WHERE targil_id = ? AND method = ?
-        """,
-        targil_id, METHOD_NAME
-    )
-
-    # --- הכנה מראש: קימפול נוסחאות ויצירת context בסיסי ---
-
     # context בסיסי, נשתמש בו מחדש לכל שורה
     ctx = {
         "a": 0.0,

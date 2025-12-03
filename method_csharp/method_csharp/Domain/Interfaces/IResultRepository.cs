@@ -10,5 +10,7 @@ namespace method_csharp.Domain.Interfaces
     public interface IResultRepository
     {
         void SaveResults(IEnumerable<ResultRecord> results);
+
+        void DeleteResultsForMethod(string method);
     }
 }

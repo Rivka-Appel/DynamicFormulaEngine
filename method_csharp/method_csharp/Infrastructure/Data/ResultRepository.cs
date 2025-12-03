@@ -55,5 +55,25 @@ namespace method_csharp.Infrastructure.Data
             bulkCopy.WriteToServer(table);
         }
 
+        public void DeleteResultsForMethod(string method)
+        {
+            if (string.IsNullOrWhiteSpace(method))
+            {
+                throw new ArgumentException("Method cannot be null or empty.", nameof(method));
+            }
+
+            using var connection = new SqlConnection(_connectionString);
+            connection.Open();
+
+            const string sql = @"
+                    DELETE FROM t_results
+                    WHERE method = @method;";
+
+            using var command = new SqlCommand(sql, connection);
+            command.Parameters.Add("@method", SqlDbType.VarChar, 50).Value = method;
+
+            command.ExecuteNonQuery();
+        }
+
     }
 }
