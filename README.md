@@ -1,4 +1,11 @@
 # Dynamic Formula Engine
 
-A clean, modular solution for evaluating dynamic formulas across SQL and C#.  
-Includes SQL stored procedures, a Python evaluator, and a C# implementation for performance comparison.
+This project implements a dynamic formula calculation engine using multiple methods (SQL, C#, Python) and compares their performance on 1,000,000 data rows.
+
+## Implemented Methods
+
+SQL_SP – Dynamic SQL inside a stored procedure
+
+C_SHARP – NCalc-based formula evaluator
+
+PYTHON – Eval/AST-based dynamic formula engine
